@@ -1,4 +1,4 @@
-package polymorphism_method_overloading;
+package complile_time_polymorphism_method_overloading;
 
 public class GMail {
 	String gmail = "ks.saideepak@gmail.com";

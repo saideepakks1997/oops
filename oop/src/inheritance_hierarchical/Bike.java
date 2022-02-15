@@ -1,4 +1,4 @@
-package inheritance;
+package inheritance_hierarchical;
 
 public class Bike {
 	String fuelType = "Petrol";

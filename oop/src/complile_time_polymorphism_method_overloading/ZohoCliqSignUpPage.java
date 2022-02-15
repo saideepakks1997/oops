@@ -1,4 +1,4 @@
-package polymorphism_method_overloading;
+package complile_time_polymorphism_method_overloading;
 
 import java.util.Scanner;
 

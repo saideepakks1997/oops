@@ -1,4 +1,4 @@
-package inheritance;
+package inheritance_hierarchical;
 import java.util.Scanner;
 public class BikeOwner {
 	static Scanner sc = new Scanner(System.in);
