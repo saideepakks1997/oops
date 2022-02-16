@@ -23,28 +23,38 @@ public class CommentryBoxHistory {
 		}
 	}
 	private void showDhoniCommentry() {
-		Dhoni d = new Dhoni();
-		System.out.println("----------------------------");
-		d.enterTheGround();
-		System.out.println("----------------------------");
-		d.catchTheBall();
-		System.out.println("----------------------------");
-		d.playWithBat();
+		BatsmanCumWicketKeeper dhoni = new BatsmanCumWicketKeeper();
+		System.out.println("-----------------------------------------");
+		dhoni.doAutoGraphForFans();
+		dhoni.enterTheGround();
+		dhoni.startBatting();
+		dhoni.doStumping();
+		dhoni.celebrationStyle("Stumping");
+		dhoni.catchTheBall();
+		dhoni.celebrationStyle("Catch");
+		dhoni.discussStrategyWithPlayers();
+		System.out.println("-----------------------------------------");
 	}
 	public void showSachinCommentry() {
-		Sachin s = new Sachin();
-		System.out.println("----------------------------");
-		s.enterTheGround();
-		System.out.println("----------------------------");
-		s.playWithBat();
+		Batsman sachin = new Batsman();
+		System.out.println("-----------------------------------------");
+		sachin.doAutoGraphForFans();
+		sachin.enterTheGround();
+		sachin.startBatting();
+		sachin.celebrationStyle("hitting century");
+		sachin.discussStrategyWithPlayers();
+		System.out.println("-----------------------------------------");
 	}
 	public  void showJadejaCommentry() {
-		Jadeja j = new Jadeja();
-		System.out.println("----------------------------");
-		j.enterTheGround();
-		System.out.println("----------------------------");
-		j.bowlTheBall();
-		System.out.println("----------------------------");
-		j.playWithBat();
+		AllRounder jadeja = new AllRounder();
+		System.out.println("-----------------------------------------");
+		jadeja.doAutoGraphForFans();
+		jadeja.enterTheGround();
+		jadeja.startBatting();
+		jadeja.celebrationStyle("hitting half century");
+		jadeja.setFielding();
+		jadeja.startBowling();
+		jadeja.celebrationStyle("bowling");
+		System.out.println("-----------------------------------------");
 	}
 }

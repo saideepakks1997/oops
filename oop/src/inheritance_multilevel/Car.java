@@ -1,7 +1,10 @@
 package inheritance_multilevel;
 
-public class Car implements Vehicle{
-
+public class Car extends Vehicle{
+	int noOfSeats;
+	boolean isAcAvailable;
+	boolean isPowerSteeringAvailble;
+	
 	@Override
 	public void start() {
 		System.out.println("insert the key and start the car");

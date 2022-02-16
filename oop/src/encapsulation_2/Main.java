@@ -19,7 +19,7 @@ public class Main {
 			System.out.println("------------------------------");
 			int opt = sc.nextInt();
 			switch (opt) {
-			case 1:Student.displayNameAndMarks(student);
+			case 1:student.displayNameAndMarks(student);
 				break;
 			case 2:System.out.println("Enter the marks ");
 					int marks = sc.nextInt();

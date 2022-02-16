@@ -24,7 +24,7 @@ public class Student {
 			System.out.println("Enter the marks between 0 and 100");
 	}
 	
-	public static void displayNameAndMarks(Student student) {
+	public  void displayNameAndMarks(Student student) {
 		System.out.println("Name:- "+student.getName());
 		System.out.println("Marks scored:- "+student.getMarks());
 	}
